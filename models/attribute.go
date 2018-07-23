@@ -2,6 +2,6 @@ package models
 
 //Attribute |
 type Attribute struct {
-	Name  string
-	Value int
+	Name  string `json:"name"`
+	Value int    `json:"value"`
 }

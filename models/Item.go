@@ -2,8 +2,8 @@ package models
 
 //Item |
 type Item struct {
-	Name   string
-	Type   string
-	Weight int
-	Value  int
+	Name   string `json:"name"`
+	Type   string `json:"type"`
+	Weight int    `json:"weight"`
+	Value  int    `json:"value"`
 }
