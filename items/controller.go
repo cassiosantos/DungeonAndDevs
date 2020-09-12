@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/cassiosantos/DungeonAndDevs/models"
 	"github.com/julienschmidt/httprouter"
-	"github.com/lucasmdrs/DungeonAndDevs/models"
 )
 
 //ItemController |

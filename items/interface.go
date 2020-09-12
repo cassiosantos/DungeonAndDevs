@@ -1,7 +1,7 @@
 package items
 
 import (
-	"github.com/lucasmdrs/DungeonAndDevs/models"
+	"github.com/cassiosantos/DungeonAndDevs/models"
 )
 
 // Read |

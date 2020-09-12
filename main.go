@@ -4,12 +4,12 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/cassiosantos/DungeonAndDevs/attributes"
+	"github.com/cassiosantos/DungeonAndDevs/characters"
+	"github.com/cassiosantos/DungeonAndDevs/db"
+	"github.com/cassiosantos/DungeonAndDevs/items"
+	"github.com/cassiosantos/DungeonAndDevs/skills"
 	"github.com/julienschmidt/httprouter"
-	"github.com/lucasmdrs/DungeonAndDevs/attributes"
-	"github.com/lucasmdrs/DungeonAndDevs/characters"
-	"github.com/lucasmdrs/DungeonAndDevs/db"
-	"github.com/lucasmdrs/DungeonAndDevs/items"
-	"github.com/lucasmdrs/DungeonAndDevs/skills"
 )
 
 func main() {

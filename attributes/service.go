@@ -1,6 +1,6 @@
 package attributes
 
-import "github.com/lucasmdrs/DungeonAndDevs/models"
+import "github.com/cassiosantos/DungeonAndDevs/models"
 
 //AttrService |
 type AttrService struct {

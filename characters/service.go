@@ -1,6 +1,6 @@
 package characters
 
-import "github.com/lucasmdrs/DungeonAndDevs/models"
+import "github.com/cassiosantos/DungeonAndDevs/models"
 
 //CharacterService |
 type CharacterService struct {

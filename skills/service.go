@@ -1,6 +1,6 @@
 package skills
 
-import "github.com/lucasmdrs/DungeonAndDevs/models"
+import "github.com/cassiosantos/DungeonAndDevs/models"
 
 //SkillService |
 type SkillService struct {
