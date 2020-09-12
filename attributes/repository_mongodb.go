@@ -3,7 +3,7 @@ package attributes
 import (
 	"log"
 
-	"github.com/lucasmdrs/DungeonAndDevs/models"
+	"github.com/cassiosantos/DungeonAndDevs/models"
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

@@ -1,6 +1,6 @@
 package items
 
-import "github.com/lucasmdrs/DungeonAndDevs/models"
+import "github.com/cassiosantos/DungeonAndDevs/models"
 
 //ItemService |
 type ItemService struct {
