@@ -64,7 +64,7 @@ func (c *SkillController) Find(w http.ResponseWriter, r *http.Request, ps httpro
 	var skill models.Skill
 	skill, err := c.service.GetSkillByName(name)
 	if err != nil {
-		log.Panicf("%s\n", err)
+		//log.Panicf("%s\n", err)
 		writeJSON(w, http.StatusPreconditionFailed, models.NewHTTPErrorMessage("No Skill named "+name+" was found"))
 		return
 	}

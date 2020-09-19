@@ -64,7 +64,6 @@ func (c *AttrController) Find(w http.ResponseWriter, r *http.Request, ps httprou
 	var attr models.Attribute
 	attr, err := c.service.GetAttrByName(name)
 	if err != nil {
-		log.Panicf("%s\n", err)
 		writeJSON(w, http.StatusPreconditionFailed, models.NewHTTPErrorMessage("No Attribute named "+name+" was found"))
 		return
 	}

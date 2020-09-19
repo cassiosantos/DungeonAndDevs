@@ -64,7 +64,6 @@ func (c *ItemController) Find(w http.ResponseWriter, r *http.Request, ps httprou
 	var item models.Item
 	item, err := c.service.GetItemByName(name)
 	if err != nil {
-		log.Panicf("%s\n", err)
 		writeJSON(w, http.StatusPreconditionFailed, models.NewHTTPErrorMessage("No Item named "+name+" was found"))
 		return
 	}

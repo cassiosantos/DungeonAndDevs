@@ -64,7 +64,6 @@ func (c *CharacterController) Find(w http.ResponseWriter, r *http.Request, ps ht
 	var char models.Character
 	char, err := c.service.GetCharByName(name)
 	if err != nil {
-		log.Panicf("%s\n", err)
 		writeJSON(w, http.StatusPreconditionFailed, models.NewHTTPErrorMessage("No Character named "+name+" was found"))
 		return
 	}
